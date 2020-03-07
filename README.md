@@ -4,7 +4,7 @@ This is an open source recreation of the popular visual "Fate/Stay Night".
 
 A quick history lesson, Fate/Stay Night was originally released in Japan in 2004 as a japanese only Adult Novel, over the years it has had a number of fan translations, anime and manga adaptions, spin-offs, sequals and prequals. The long standing wisdom of the fandom is that to get the best experience with the series it is best to start reading the visual novel to its completetion. The biggest issue with this however is that is threefold:
 
-* The Novel has never offinally been released in english, or any other language.
+* The Novel has never officially been released in english, or any other language.
 * The only offically supported platform is windows, and even then on modern systems it can be inconsistant and error prone.
 * The interface can occasionally be slow or cumbersome to use
 
