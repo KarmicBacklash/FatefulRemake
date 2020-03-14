@@ -5,6 +5,7 @@
 
 define unknown = Character("?")
 define shirou = Character("Shirou")
+define sakura = Character("Sakura")
 
 # Fades
 
@@ -217,16 +218,145 @@ scene chaptercard1
 
 with wiperight
 
-"End"
+pause
 
 scene allblack
 
 with fade
 
+pause 0.5
+
+play sound dooropening
+
+"...I head a sound."
+
+"I hear an old, heavy, rusty sound as the door opens."
+
+scene allwhite
+
+with fade
+
+pause 0.1
+
+scene allblack
+
+with fade
+
+"Light enters the dark shed."
+shirou "Uh."
+"My mind, waking up..."
+unknown "Senpai, are you awake?"
+"...Feels the cold  air and the approaching footsteps."
+
+play music bgm03
+
+scene allwhite
+
+with fade
+
+scene sakura1
+
+with dissolve
+
+shirou "...Mm. Good Morning, Sakura."
+sakura "Ah, yes. Good morning, Senpai."
+"Sakura smiles and nods as if accustomed to this situation."
+sakura "Senpai, it's morning already. You have some more time, but Fujimura-Sensai will get mad if you stay asleep here."
+shirou "Oh... you're right. Thanks for coming to wake me up."
+sakura "It's no problem at all. You're always up so early."
+sakura "I can only come and wake you up like this occasionally."
+"...?"
+"Sakura seems more upbeat than usual today as if she's happy about something."
+shirou "...Really? I think you wake me up quite often."
+"Though, Fuji-Nee always hits me to wake me up, so I'd rather you wake me up... Well, I'll try harder next time."
+"...I answer her with a sleepy head."
+"I don't know what I'm saying with my mind not fully awake."
+"Alright. But I'm happier when you don't try."
+"Sakura is giggling."
+"...Gah, I guess my head was still dozing and I said something weird."
+shirou "Give me a second, I'll wake up."
+"The cold outdoor air helps in situations like this."
+"The chilld works well to beat the sleepiness out of my head."
+"...In front of me is Matou Sakura, my junior at school."
+"This place is a shed behind my house, and the time is siz six o'clock."
+sakura "...Senpai?"
+shirou "Yeah, I'm awake now. Sorry, I guess I did it again."
+shirou "I have to help you cook breakfast too."
+sakura "It's fine. You were up late last night again, right? So you should take your time in the morning. I'll get breakfast ready."
+"Sakura says so in a happy tone."
+"...It's unusual. Sakura really seems to be in a good mood this morning."
+shirou "I can't let you do that. I'll get up right now, so let's go to the kitchen together."
+
+scene allblack
+
+with fade
+
+scene shed1
+
+with blinds
+
+show sakura32 at center
+
+with dissolve
+
+shirou "Alright, I'm all set. Let's go, Sakura."
+
+hide sakura32
+
+show sakura81 at center
+
+with dissolve
+
+sakura "Ah... um, Senpai..."
+shirou "Hm? What, is something wrong?"
+sakura "No, it's nothing, but... you I think you should change before you go back to the house."
+
+hide sakura81
+
+show sakura82 at center
+
+with dissolve
+
+shirou "Oh."
+
+"That said, I look down at myself."
+"I fell asleep while I was working, so I'm still wearing my overalls."
+"Being my work clothes, they're pretty dirty. I can't imagine what Fuji-Nee would say to me if I went into the house like this."
+shirou "Ugh... I guess I'm not awake yet. I'm a bit out of it this morning."
+
+hide sakura82
+
+show sakura48 at center
+
+with dissolve
+
+sakura "That could be. So you rest here for a bit and I'll take care of breakfast. And you know, if you keep this place a mess, Fujimura-Sensei will get mad at you."
+
+shirou "...You're right. I'll go after I get changed. You go on ahead."
+
+hide sakura48
+
+show sakura66 at center
+
+with dissolve
+
+sakura "Yes, I'll be waiting, Senpai."
+
+hide sakura66
+
+with blinds
+
+"Sakura leaves."
 
 
-"This is the end of the Fateful Remake Tech Demo. Contact Karma#5870 on discord or /u/Karmic_Backlash on reddit with questions."
-   
+
+
+
+
+
+
+
+"End of Dev."
 # This ends the game.
 
 return
